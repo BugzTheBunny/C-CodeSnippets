@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Private SerialzedField</Title>
+			<Shortcut>sp</Shortcut>
+			<Description>Code snippet for a '[SerializedField] private obj'</Description>
+			<Author>BugzTheBunny</Author>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>object</ID>
+					<Default>GameObject</Default>
+					<ToolTip>Value for type of field</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>name</ID>
+					<Default>gameObject</Default>
+					<ToolTip>Value for nameof field</ToolTip>
+				</Literal>
+			</Declarations>
+			
+			<Code Language="csharp"><![CDATA[[SerializeField] private $object$ $name$;]]>
+			</Code>
+			
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
